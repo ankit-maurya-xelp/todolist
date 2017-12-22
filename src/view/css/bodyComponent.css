@@ -1,0 +1,97 @@
+.BodyComponent {
+    display: flex;
+    width: 100%;
+}
+
+.BodyComponent-left {
+    width: 46%;
+}
+
+.BodyComponent-right {
+    width: 46%;
+    margin-left: 8%;
+}
+
+.Title-btn {
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    background-color: white;
+    margin-top: 3%;
+    border-radius: 8px;
+    font-size: 20px;
+    border: solid 1px #9e9898;
+    padding-left: 5%;
+}
+
+.Description-btn {
+    width: 70%;
+    margin-left: 15%;
+    height: 190px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: solid 1px #9e9898;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.Title {
+    color: #074f79;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #eeecec;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.Save-btn {
+    background-color: #074f79;
+    margin-left: 18%;
+    width: 18%;
+    height: 40px;
+    margin-top: 8%;
+    border-radius: 10px;
+    color: white;
+    border: solid 1px;
+}
+
+.Reset-btn {
+    background-color: #074f79;
+    margin-left: 28%;
+    width: 18%;
+    height: 40px;
+    margin-top: 8%;
+    border-radius: 10px;
+    color: white;
+    border: solid 1px;
+}
+
+.Control-btn {
+    display: flex;
+}
+
+.Scroll-bar {
+    : webkit-scrollbar: width 10px;
+    : webkit-scrollbar-track: background #f1f1f1;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

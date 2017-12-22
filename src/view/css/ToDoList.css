@@ -1,0 +1,18 @@
+.ToDoList {
+    width: 70%;
+    background-color: #e2e4e5;
+    padding-left: 8px;
+    margin-top: 10px;
+    padding-top: 2px;
+    margin-left: 15%;
+}
+
+.List-header {
+    color: #074f79;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    width: 60%;
+    background-color: #ecedee;
+    margin-left: 20%;
+}

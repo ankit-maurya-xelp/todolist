@@ -1,0 +1,12 @@
+.Header {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: linear-gradient(to right, white, #2a537a, white);
+    color: white;
+}
+
+.Header-text {
+    padding: 25px;
+    font-size: 30px;
+}
